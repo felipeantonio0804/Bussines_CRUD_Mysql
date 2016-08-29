@@ -1,0 +1,10 @@
+C:\Users\Felipe\documents\visual studio 2012\Projects\ARSA\ARSA\bin\ARSA.dll
+C:\Users\Felipe\documents\visual studio 2012\Projects\ARSA\ARSA\bin\ARSA.pdb
+C:\Users\Felipe\documents\visual studio 2012\Projects\ARSA\ARSA\obj\Debug\ARSA.dll
+C:\Users\Felipe\documents\visual studio 2012\Projects\ARSA\ARSA\obj\Debug\ARSA.pdb
+C:\Users\Felipe\documents\visual studio 2012\Projects\ARSA\ARSA\obj\Debug\ARSA.csprojResolveAssemblyReference.cache
+C:\Users\felip\Desktop\Fase2_201122936\Aplicacion\ARSA\ARSA\obj\Debug\ARSA.csprojResolveAssemblyReference.cache
+C:\Users\felip\Desktop\Fase2_201122936\Aplicacion\ARSA\ARSA\obj\Debug\ARSA.dll
+C:\Users\felip\Desktop\Fase2_201122936\Aplicacion\ARSA\ARSA\obj\Debug\ARSA.pdb
+C:\Users\felip\Desktop\Fase2_201122936\Aplicacion\ARSA\ARSA\bin\ARSA.dll
+C:\Users\felip\Desktop\Fase2_201122936\Aplicacion\ARSA\ARSA\bin\ARSA.pdb

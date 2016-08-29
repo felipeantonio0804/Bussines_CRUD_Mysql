@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="maestra.master.cs" Inherits="ARSA.paginas_maestras.maestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Encabezado1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PROYECTO ARSA</title>
+    <link href="../css/EstiloMaestra/Main.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 203px;
+        }
+        .auto-style2
+        {
+            width: 198px;
+        }
+    </style>
+    <h2 align=center>
+    </h2>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+	        <div id="header-wrapper">
+		        <div id="header">
+		            <div id="logo">
+			    	    <asp:Image ID="Image2" runat="server" ImageUrl="../images/logo.png" Width="300px" Height="130px" />
+		                <asp:Label ID="Label4" runat="server" Text="BIENVENIDO: "></asp:Label>
+		                <asp:Label ID="lblUsuario" runat="server"></asp:Label>
+		            </div>
+		
+                    <div id="menu">
+		             <table style="width:100%;">
+                        <tr>
+                            <td class="auto-style1">
+                                <asp:Label ID="Label1" runat="server" Text="GESTIONES PRINCIPALES"></asp:Label>
+                            </td>
+                            <td class="auto-style2">
+                           
+        <asp:DropDownList runat="server" Height="30px" Width="190px" ID="gestionesPrincipales">
+            <asp:ListItem Selected="True">GESTION CLIENTES</asp:ListItem>
+            <asp:ListItem>GESTION PROVEEDORES</asp:ListItem>
+            <asp:ListItem>GESTION EMPLEADOS</asp:ListItem>
+            <asp:ListItem>GESTION PRODUCTOS</asp:ListItem>
+            <asp:ListItem>GESTION MERMAS</asp:ListItem>
+<asp:ListItem>GESTION GASTOS</asp:ListItem>
+        </asp:DropDownList>
+                                </td>
+                            <td>
+                                <asp:Button ID="gestionDatos" runat="server" Height="22px" Text="IR" Width="161px" Visible=true OnClick="gestionDatos_Click" ></asp:Button>
+         
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style1">
+                                <asp:Label ID="Label2" runat="server" Text="COMPRAS Y VENTAS"></asp:Label>
+                            </td>
+                            <td class="auto-style2">
+                           
+        <asp:DropDownList runat="server" Height="30px" Width="190px" ID="comprasYVentas">
+            <asp:ListItem>GESTION VENTAS</asp:ListItem>
+            <asp:ListItem>GESTION COMPRAS</asp:ListItem>
+        </asp:DropDownList>
+                                </td>
+                            <td>
+                                <asp:Button ID="gestionDatos0" runat="server" Height="22px" Text="IR" Width="161px" Visible=true OnClick="gestionDatos0_Click" ></asp:Button>
+         
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style1">
+                                <asp:Label ID="Label3" runat="server" Text="REPORTES"></asp:Label>
+                            </td>
+                            <td class="auto-style2">
+         
+        <asp:DropDownList runat="server" Height="30px" Width="190px" ID="reportes">
+            <asp:ListItem Selected="True">REPORTE 1</asp:ListItem>
+            <asp:ListItem>REPORTE 2</asp:ListItem>
+            <asp:ListItem>REPORTE 3</asp:ListItem>
+            <asp:ListItem>REPORTE 4</asp:ListItem>
+        </asp:DropDownList>
+    
+                           
+    
+		                    </td>
+                            <td>
+                                <asp:Button ID="gestionDatos1" runat="server" Height="22px" Text="GENERAR" Width="161px" Visible=true OnClick="gestionDatos1_Click" ></asp:Button>
+         
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style1">
+                                <asp:Button ID="salir" runat="server" OnClick="salir_Click" Text="Logout" Width="123px" />
+                            </td>
+                            <td class="auto-style2">&nbsp;</td>
+                            <td>
+                                <asp:Button ID="gestionCuentas" runat="server" Height="22px" Text="Gestion Cuentas" Width="161px" Visible=true OnClick="gestionCuentas_Click" ></asp:Button>
+         
+                            </td>
+                        </tr>
+                    </table>
+                           
+                           
+    
+		            </div>
+		        </div><!--termina encabezado-->
+            </div><!--termina envoltura-encabezado-->
+	
+            <!-- <div id="banner">-->
+            <!--<asp:Image ID="logo" runat="server" ImageUrl="../images/logoGrande.png" Width="95%" Height="120px" />-->
+            <!--</div>-->
+	        
+            <div id="page-wrapper">
+		        <div id="page">
+			        <div id="wide-content">
+	                    <asp:ContentPlaceHolder ID="ContenidoPagina" runat="server"></asp:ContentPlaceHolder>
+			        </div><!--termina el contenido de la pagina-->
+		        </div><!--termina la pagina-->
+    	    </div><!--page-wrapper-->
+	
+            <div id="recent-news"></div>
+	    
+            <div id="footer-wrapper">
+		        <div id="footer-content">
+			    </div>
+	        </div>
+        </div><!--termina la envoltura-->
+
+        <div id="footer">
+            <center>
+	            <p>PROYECTO REALIZADO POR: FELIPE ANTONIO LOPEZ DE LEON</p>
+                <p>CARNE: 201122936</p>
+            </center>
+        </div>
+
+   </form>
+</body>
+</html>
